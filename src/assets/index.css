@@ -1,0 +1,138 @@
+
+
+/* propmart */
+/* Header */
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{font-family: 'Poppins', sans-serif; color: #5E5E5E; font-size: 16px; background-color: #F5F5F5;}
+li{list-style-type:none;}
+a{color: #5E5E5E;}
+a:hover{text-decoration: none;}
+img{max-width: 100%;}
+.container_fluid{width: 100%;}
+.container{width: 100%; margin: 0 auto; max-width: 1300px;}
+
+.content h2{font-size: 35px;}
+.content p{font-weight: 400px;font-size:18px;padding-left: 60px;}
+
+.bg_header{background-color: #3F3F3FC9;}
+.header{display: flex; justify-content: space-between;}
+
+
+.menu > ul > li{display: inline-block; vertical-align: top; padding: 8px 15px;padding-top:30px;padding-right: 20px; position: relative;}
+.menu > ul > li > a{color: white;text-decoration: none; padding:5px 10px;} 
+.menu > ul > li > a >i{display: none;}
+.menu > ul > li > a:hover{background-color: #000000; }
+.menu > ul > li:last-child a{border: white 1px solid;padding: 5px;padding-right: 20px;padding-left: 20px;}
+.menu > ul > li > ul{position: absolute; left: 14px; top: 100%; z-index: 20; background-color:#1F416F; width: 250px;} 
+.menu > ul > li > ul > li > a{text-decoration: none;font-size: 15px; padding: 10px 20px; display: block;border-bottom: #000000 2px solid;}
+.menu > ul > li:hover > ul{display: block;}
+.menu > ul > li > ul{display: none;}
+.header_logo > h2 > i{display: none;}
+
+
+/* Main_section_1 */
+.form_search{display: table; width: 100%;background-color:rgba(90, 93, 96, 0.77);}  
+.form_search > ul{display: table-row;}
+.form_search > ul > li{color: white; display: table-cell; width: 25%; position: relative;padding-top: 4px;}
+.form_search > ul > li p{font-size: 12px;padding-top: 15px;padding-left: 20px;}
+.main_form{position:absolute; bottom:-40px; left:12%; right: 12%; padding: 20px;}
+
+
+.dropdown{position: absolute; width: 120px; background-color:#5E5E5E; color:white;z-index: 10; top: 64px; left: 95px;}
+.dropdown li{list-style-type: none; padding: 6px;font-size: 15px;}
+.circle{position: absolute;width: 120px;background-color: #5E5E5E;color: white;z-index: 10;top: 64px; left: 87px;}
+.circle li{list-style-type: none;padding:6px;font-size: 15px;}
+.circle li i{padding-right: 8px;}
+.dropdown li i{padding-right: 8px;}
+
+   /* Main_section_2 */
+.project .text{text-align: center;width: 100%;max-width: 300%;margin: 0 auto;}
+.project{font-weight: 400;font-size: 20px; margin-top: 50px;}
+.project_section{display: flex;padding-top: 20px;}
+
+.text p{font-size:17px;font-weight: 400;padding-top: 20px;padding-bottom: 20px;}
+.text h2{padding-top:60px;font-size: 23px;}
+.row{display: flex;}
+.inner{padding: 20px;}
+
+/* Main_section_3 */
+.popular{text-align: center;}
+.popular h2{padding-top: 10px;padding-bottom: 10px;}
+.popular p{padding-top: 10px;padding-bottom: 30px;padding-left: 150px;padding-right: 150px;}
+
+/* Main_section_3 */
+/* Main_section_4 */
+.border_head span{border-bottom:#7F7F7F 2px solid; padding: 8px 18px; display: inline-block; position: relative;}
+.border_head span::before{content: ''; position: absolute; width: 8px; height: 8px; background-color: #7F7F7F; border-radius: 8px; left: 0; top: 50px;}
+.border_head span::after{content: ''; position: absolute; width: 8px; height: 8px; background-color: #7F7F7F; border-radius: 8px; right: 0; top: 50px;}
+
+
+.new{text-align: center;}
+.new h2{padding-top:10px;padding-bottom: 10px;}
+.new p{padding-top: 5px;padding-bottom: 10px;}
+.project3{display: flex;padding-top: 30px;}
+.innerproject3{padding-bottom: 40px;}
+
+
+.project4{text-align: center;}
+.project4 h2{padding-top: 10px;padding-bottom: 10px;}
+.project4 p{padding-top:10px;padding-bottom: 10px;}
+.project4 ul li{display: inline-block;}
+.project4 ul li a{border: gray 1px solid; padding: 10px;display: inline-block; text-decoration: none;}
+.project4 ul li a.selected{background-color:#5686E1; color: white; border-color:#5686E1;}
+
+/* Main_section_5 */
+.ourproject{display: flex;width: 100%;max-width: 300%;margin: 0 auto;}
+.ourproject{padding-top: 40px;}
+.ourproject_section{padding: 20px;}
+.ourproject_section > h6 {text-align: center;font-size: 20px;font-weight: 400;}
+.ourproject_section > h6 > span{position: relative;}
+.ourproject_section h6 span::before{content: '\f041'; position: absolute; font-family: 'fontAwesome'; left: -20px; top: 4px;}
+
+/* Main_section_6 */
+.testimonials .test .innertest.my.house {width: 100%;max-width: 300%;margin: 0 auto;}
+.testimonials h2{text-align: center;padding-bottom: 10px;}
+.testimonials h3{text-align: center;}
+.testimonials .innertest{text-align: center;}
+.testimonials p{text-align: center;padding-left: 100px;padding-right: 100px;}
+.my h4{text-align: center;padding-bottom: 10px;}
+.my h5{text-align: center;padding-bottom: 20px;}
+.house1 .customer p{color: white;font-size: 22px;}
+.subscribe button{font-size: 22px;font-size: 20px;margin-right: 30px;}
+.house1{justify-content: space-between;background-color: #1F416F;padding: 43px 43px;}
+.inner_house1{display: flex;justify-content: space-between;}
+
+/* Footer */
+.footer{background-color: #707070;padding:40px;color: white;width: 100%;max-width: 300%;margin: 0 auto;}
+.footer .footer_area{display: flex;width: 100%;}
+.area1{width:50%;font-size: 14px;}
+.area1 i{padding: 8px;}
+
+.link{width: 50%;display: flex;}
+.link1{width: 50%;display: flex;}
+
+.area2{width:50%;font-size: 14px;padding-left: 52px;}
+.area3{width: 50%;font-size: 14px;padding-left: 35px;}
+.area4{width: 50%;font-size: 14px;padding-left: -10px;padding-right: 40px;}
+.area2 ul li i{font-size: 6px;padding-right: 10px;}
+
+
+.area2 h2{font-size: 16px;padding: 5px 10px 20px;}
+.area3 ul li i{font-size: 6px;padding-right: 10px;}
+.area3 h2{font-size: 16px;padding: 5px 10px 20px;}
+.area4 h2{font-size: 16px;padding: 5px 1px 20px;}
+.area2 ul li{padding: 8px;}
+.area3 ul li{padding: 5px;}
+.tag{padding-bottom: 6px;width: 80px;}
+
+.my_1{border-top: 1px white solid;padding-top:10px;background-color: #707070;color: white;padding-bottom: 20px;justify-content: space-between;padding-right: 146px;}
+.my_1 p:first-child{padding-left: 45px;}
+
+.name{padding-top: 40px;padding-right: 60px;font-size: small;}
+.name button{background-color: #1F416F;color: white;padding: 8px 50px;font-size: 19px;border: none;}
+.my{padding-top: 40px;padding-right: 60px;font-size: small;}
+.privacy{display: flex;justify-content: space-between;}
+
+
+.whatsapp_logo{position: fixed;  right: 20px; bottom: 20px}
+.whatsapp_logo a i{color: white; font-size: 40px; background-color: green; border-radius: 40px; height: 80px; width: 80px;padding: 10px 20px 10px 20px;}
